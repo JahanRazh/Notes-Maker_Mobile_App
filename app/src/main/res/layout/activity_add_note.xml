@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddNoteActivity">
+
+    <TextView
+        android:id="@+id/addNoteHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_aligenParentTop="true"
+        android:layout_marginStart=""
+
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd=""
+
+        android:layout_marginBottom=""
+        android:fontFamily="sans-serif-medium"
+        android:text="Add Note."
+        android:textColor="@color/orange"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:android="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_beenhere_24"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/addNoteHeading"
+        android:layout_marginEnd="6dp"/>
+
+    <EditText
+        android:id="@+id/titleEdittext"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="enter the title"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_below="@id/addNoteHeading"
+        android:background="@drawable/orange_border"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"
+        android:fontFamily="@font/poppins"/>
+    <EditText
+        android:id="@+id/contentEdittext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Enter the description"
+        android:gravity="top"
+        android:padding="12dp"
+        android:textsize="18sp"
+</RelativeLayout>
