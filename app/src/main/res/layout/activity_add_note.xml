@@ -11,69 +11,66 @@
 
     <TextView
         android:id="@+id/addNoteHeading"
-        android:layout_width="1874dp"
-        android:layout_height="216dp"
-        android:layout_aligenParentTop="true"
+        android:layout_width="228dp"
+        android:layout_height="46dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="126dp"
-        android:layout_marginTop="154dp"
-        android:layout_marginEnd="116dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="49dp"
+        android:layout_toStartOf="@+id/saveButton"
         android:fontFamily="sans-serif-medium"
         android:text="@string/add_note"
         android:textColor="@color/orange"
-        android:textSize="150sp" />
+        android:textSize="26sp" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="211dp"
-        android:layout_height="172dp"
+        android:id="@+id/saveButton"
+        android:layout_width="51dp"
+        android:layout_height="45dp"
 
 
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="182dp"
-        android:layout_marginEnd="150dp"
-        android:android="@+id/saveButton"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="37dp"
+
         android:src="@drawable/done" />
 
     <EditText
-        android:id="@+id/titleEdittext"
-        android:layout_width="1838dp"
-        android:layout_height="320dp"
+        android:id="@+id/titleEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/addNoteHeading"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="124dp"
-        android:layout_marginEnd="146dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="29dp"
         android:background="@drawable/orange_border"
         android:fontFamily="@font/poppins"
         android:hint="Enter the title"
         android:maxLines="1"
         android:padding="12dp"
-        android:textSize="120sp" />
+        android:textSize="20sp" />
 
     <EditText
-        android:id="@+id/contentEdittext"
-        android:layout_width="1874dp"
-        android:layout_height="2224dp"
-        android:layout_below="@id/titleEdittext"
+        android:id="@+id/contentEditText"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleEditText"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="104dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="138dp"
-        android:layout_marginBottom="76dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="52dp"
         android:fontFamily="@font/poppins"
         android:gravity="top"
         android:hint="Enter the description"
         android:padding="12dp"
-        android:textSize="100sp"
-        android:textsize="24sp" />
+        android:textSize="20sp" />
 
 
 </RelativeLayout>
-
