@@ -3,9 +3,10 @@ package com.example.notesapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.appcompat.widget.SearchView // Import SearchView
+import androidx.appcompat.widget.SearchView
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.notesapp.databinding.ActivityMainBinding
+
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -67,5 +68,6 @@ class MainActivity : AppCompatActivity() {
         allNotes = db.getAllNotes()
         notesAdapter.refreshData(allNotes)
     }
-}
 
+
+}
