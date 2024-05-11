@@ -31,7 +31,7 @@
                 android:textStyle="bold"/>
 
             <ImageView
-                android:id="@+id/updateButton"
+                android:id="@+id/updateSaveButton"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:layout_alignParentEnd="true"

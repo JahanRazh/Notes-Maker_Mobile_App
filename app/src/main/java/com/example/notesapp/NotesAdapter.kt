@@ -34,6 +34,8 @@ class NotesAdapter (private var notes: List<Note>,context: Context) :
             val intent = Intent(holder.itemView.context,UpdateNoteActivity::class.java).apply{
                     putExtra("note_id",note.id)
             }
+            holder.itemView.context.startActivity(intent)
+
         }
     }
 
