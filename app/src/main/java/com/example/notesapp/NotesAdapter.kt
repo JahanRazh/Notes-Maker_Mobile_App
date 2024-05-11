@@ -31,7 +31,7 @@ class NotesAdapter (private var notes: List<Note>,context: Context) :
 
 
         holder.updateButton.setOnClickListener{
-            val intent = Intent(holder.itemView.context,UpdateActivity::class.java).apply{
+            val intent = Intent(holder.itemView.context,UpdateNoteActivity::class.java).apply{
                     putExtra("note_id",note.id)
             }
         }
